@@ -1,0 +1,77 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: root.aux
+The style file: plain.bst
+Database file #1: robo.bib.bib
+Repeated entry---line 1270 of file robo.bib.bib
+ : @inproceedings{Basan2018
+ :                         ,
+I'm skipping whatever remains of this entry
+Database file #2: jam.bib.bib
+Warning--I didn't find a database entry for ""
+Too many commas in name 1 of "Gary Cornelius, Patrice Caire, Nico Hochgeschwender, Miguel A. Olivares-Mendez, Paulo Esteves-Verissimo, Marcus Volp, Holger Voos" for entry Cornelius
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Gary Cornelius, Patrice Caire, Nico Hochgeschwender, Miguel A. Olivares-Mendez, Paulo Esteves-Verissimo, Marcus Volp, Holger Voos" for entry Cornelius
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Gary Cornelius, Patrice Caire, Nico Hochgeschwender, Miguel A. Olivares-Mendez, Paulo Esteves-Verissimo, Marcus Volp, Holger Voos" for entry Cornelius
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Gary Cornelius, Patrice Caire, Nico Hochgeschwender, Miguel A. Olivares-Mendez, Paulo Esteves-Verissimo, Marcus Volp, Holger Voos" for entry Cornelius
+while executing---line 1049 of file plain.bst
+Warning--empty booktitle in Battiti2003OptimalWA
+Warning--empty booktitle in inproceedings:Breiling
+Warning--empty journal in Cepheli-2013
+Warning--there's a number but no series in eisenblatter:integrated
+Warning--empty journal in Yfantis1
+Too many commas in name 1 of "Gary Cornelius, Patrice Caire, Nico Hochgeschwender, Miguel A. Olivares-Mendez, Paulo Esteves-Verissimo, Marcus Volp, Holger Voos" for entry Cornelius
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Gary Cornelius, Patrice Caire, Nico Hochgeschwender, Miguel A. Olivares-Mendez, Paulo Esteves-Verissimo, Marcus Volp, Holger Voos" for entry Cornelius
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Gary Cornelius, Patrice Caire, Nico Hochgeschwender, Miguel A. Olivares-Mendez, Paulo Esteves-Verissimo, Marcus Volp, Holger Voos" for entry Cornelius
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Gary Cornelius, Patrice Caire, Nico Hochgeschwender, Miguel A. Olivares-Mendez, Paulo Esteves-Verissimo, Marcus Volp, Holger Voos" for entry Cornelius
+while executing---line 1090 of file plain.bst
+Warning--empty journal in Cornelius
+Warning--empty publisher in inbook:Priyadarshini
+Warning--empty journal in thesis:Shyvakov
+You've used 61 entries,
+            2118 wiz_defined-function locations,
+            864 strings with 16605 characters,
+and the built_in function-call counts, 23847 in all, are:
+= -- 2313
+> -- 1089
+< -- 37
++ -- 436
+- -- 366
+* -- 1538
+:= -- 3685
+add.period$ -- 193
+call.type$ -- 61
+change.case$ -- 364
+chr.to.int$ -- 0
+cite$ -- 69
+duplicate$ -- 1029
+empty$ -- 1918
+format.name$ -- 366
+if$ -- 5294
+int.to.chr$ -- 0
+int.to.str$ -- 61
+missing$ -- 56
+newline$ -- 308
+num.names$ -- 124
+pop$ -- 469
+preamble$ -- 1
+purify$ -- 304
+quote$ -- 0
+skip$ -- 831
+stack$ -- 0
+substring$ -- 1327
+swap$ -- 366
+text.length$ -- 37
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 242
+warning$ -- 8
+while$ -- 209
+width$ -- 63
+write$ -- 683
+(There were 9 error messages)

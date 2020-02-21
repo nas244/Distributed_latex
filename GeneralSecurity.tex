@@ -1,0 +1,73 @@
+%!TEX root =  root.tex
+
+\section{General Security}
+\subsection{CIAA}
+CIAA is an initialism that includes the original CIA triad and adds an extra letter. Fully enumerated: Confidentiality, Integrity, Availability, and \textit{Authentication}.  CIAA breaks security concerns into four distinct categories to aid in security assessment and discussion.  
+%cite Martin 2017 here
+
+\subsubsection{C - Confidentiality}
+
+%change wording, esp. "determines"
+The confidentiality of data and assets primarily refers to access control between data and users. I.e. who or what can or cannot access data or assets. Specifically, if data/assets are confidential, only the people who should see/use them can. Confidentiality is breached when someone views data/assets that they are not allowed to see. It is obvious to see how data is or is not confidential. Assets are a little more subtle. Assets include hardware and software. So, who cares if someone knows that they have 4 hard drives on the network or are running an Apache web server? It is important to be able to control who knows the existence of assets because knowledge of assets can give an attacker a leg up.
+
+\subsubsection{I - Integrity}
+
+Integrity of data and assets says that data/assets should be unmodified and assets should be functioning properly. Moreover, it also means that data should be correct and that assets take in and produce correct data (although this is outside of the scope of security). Integrity also determines who can modify data and assets. Obviously you only want certain people changing values in the database and pushing changes to your Git repository.
+
+\subsubsection{A - Availability}
+
+Availability of data and assets determines when said data/assets are ready to be seen/modified/used/etc. Data should be easily accessible by those who are allowed to see and hardware/software (such as web servers) need to also be available to people who are allowed to use it. For example, when I go to www.google.com, I expect to be able to search for anything via that service. If it unavailable, then I cannot use that service, rendering it useless. The same thing applies to data. If I cannot access my data, it is useless.
+
+\subsubsection{A - Authentication}
+
+This \cite{article:Martin} paper discusses this.
+
+Authentication is added to the original CIA triad for a variety of reasons. Generally, it allows a person to prove who they are. This is useful specifically for robot for reasons that will hopefully be clear later in this paper. It allows robots to verify that they are in fact a true user of the system that they are in and keeps the ones who are faking it out. This is very important because physical access to robots is almost impossible to prevent, making authentication essential.
+\\\\
+Along with Authentication, some security theorists include non repudiation. This says that an action taken by an entity cannot be proved to not have happened. It is important to have with robots, although it is not usually considered. It is solved with digital signing, a form of asymmetric cryptography, which is computationally expensive. Since it is resource intensive, it is difficult to justify adding in to a robotic system, where resources are limited.
+\\\\
+These properties do not control a system, rather, the system decides how to implement/control these aspects. For example, a system can implement digital signing to have non repudiation. However, if an entity is able to breach one of these aspects, that aspect is no longer present in the system and the system will need to be amended. Either way, these are important concepts to keep in mind throughout the paper, because all attacks break one or more of these aspects. How we prevent these attacks also goes back to this section.
+
+\subsection{Goals of Adversary}
+
+The goals of an adversary of a computer system can be widely varied. On a philosophical level, it is to break one or more of the previously mentioned aspects of security. Realistically speaking, the adversaries and attackers goal are more practical and concrete. This paper focuses on 3 broad categories: control of the system, impairment, and data access.
+\\  % tie these to multi robot systems? Make logical leaps; do this at the end in one paragraph,  it'll flow better and be less repetitive
+\subsubsection{Control of the System}
+If an adversary is able to gain control of a system, s/he can do anything to it (e.g. change it, see all the information, shut it down, etc.). This is a total breach of the system and gives the adversary all the power over it. This breaks all aspects of CIAA. 
+%Robot ties
+The large diversity of robotic system implementations creates a diverse outcome of impacts when a system is compromised.  Robots ability to manipulate or interact with their physical surroundings makes compromised robots unique when compared to other systems.  A robot may not only be a means for visual data compromise (by on board cameras) but the mobility of the robot as opposed to a stationary or fixed camera system makes data acquisition o
+\subsubsection{Impairment}
+An adversary is able to inhibit or prohibit parts or all of the system from functioning. This does not give the attacker as much power as control of the system, but s/he can control whether or not certain parts of the system are functioning. This mostly break availability, but can break integrity in certain situations. 
+\subsubsection{Data Access}
+The adversary is able to see the data being transmitted through the system. This breaks confidentiality of the system. It is important to note that modern robots can contain data that traditional computers do not (such as a vacuum holding a rough layout of your house), making this very important for this paper.
+\\
+% Link robot specific areas of CIAA
+Compromised robotic systems 
+This paper has information on specific attacks possible against robotic networks. This section will be referred back to, saying which broad goal is accomplished by the breach.
+
+\subsection{Attack Vector}
+Not only is it important what is being attacked, it is important to look at what the attack is being used on (i.e., what its being carried out across). %holy crap this is a horrid sentence and must be changed.
+In terms of networking, this means we need to look at what layer the attack uses to carry out its mission. The network protocol stack has 5 layers (lowest to highest): physical, data link, network, transport, and application. 
+\\
+\subsubsection{Physical Layer}
+The physical layer includes electricity on a wire or wave patterns in space. For wireless robotic networks, attacks carried out across the physical layer will involve cancelling out or overpowering wireless signals. It could technically include stealing robots from the field or accessing their physical ports, but that is out of the scope of this paper.
+
+\subsubsection{Data Link Layer}
+The data link layer is were protocols enter the picture. Ethernet and 802.11 act at this layer. Attacks at this layer will involve spoofing other machines or a form of denial of service (DOS).
+
+\subsubsection{Network Layer}
+IP is the dominant protocol of the network layer. Attacks at this layer could be DOS, spoofing, rerouting, %please add stuff here.
+Some attacks at this layer (and higher layers) are not specific to robotic networks.
+
+\subsubsection{Transport Layer}
+TCP and UDP are the predominant protocols at this layer. Operating system level attacks occur at this layer. Usually, attacks at this layer occur because of poor or nonexistant key management/security.
+
+\subsubsection{Application Layer}
+Application layer attacks do not have a real place in this paper because they are not specific to robotic security, rather general computer security.
+
+\section{Random Cites}
+Mobile Service robots \cite{Cornelius}\\
+Swarm robot challenges \cite{Higgins2009SurveyOS}\\
+General security things about robots \cite{Yousef2018AnalyzingCT}
+
+This paper \cite{Mostefa2017} talks about the 5 main points of security as well WSN security challenges.

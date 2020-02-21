@@ -1,0 +1,96 @@
+%!TEX root =  root.tex
+\section{Specific Attacks}
+\subsection{DoS/Jamming}how did you run your code
+
+Denial of Service 
+
+%Experimental Analysis of Denial-of-Service Attacks on Teleoperated Robotic Systems Tamara Bonaci
+
+%Physical Layer Security in Wireless Communication Networks Özge Cepheli
+%Cepheli-2013  - go back for phy layer mitagation techniques (eavesdropping)
+%Denial of Service Attacks in Wireless Networks: The Case of Jammers Konstantinos Pelechrinis 
+%pelechrinis:denial
+\subsubsection{Physical}
+A Denial of Service attack (DoS) can be implemented via numerous methods depending on the platform of attack and affects accessibility via interruption. At the physical layer filling the communication medium with transmissions can be enough to negatively affect or even inhibit communication.  Wireless systems do not utilize a physically conductive medium and often rely on broadcasting messages \cite{Cepheli-2013}.  This property makes the physical layer wireless systems particularly susceptible to DoS attacks. where a physical cable forces one to have direct access to it in order implement an attack, the broadcast nature of wireless alleviates this problem for potential attackers \cite{pelechrinis:denial}.  Wireless DoS attacks generally can often be accomplished with simple equipment and little effort \cite{pelechrinis:denial}.  Physical layer DoS attacks are hard to prevent or handle without assistance from applications or users outside of the network infrastructure.  An intrusion detection system may notice a Dos attack is occurring but there are little automated solutions to stop an in progress attack. For wireless DoS attacks triangulation may be used to pinpoint the source of malicious signals. Primary mitigation often occurs with designing robots to handle situations in which signal is lost or in other words to fail gracefully.
+
+Because this attack affects the hardware or physical layer that Robots utilize for communication, proven successful attacks or proof of concepts that work on the specified hardware can be expected to be effective against the robots reliant on this hardware and be as or more detrimental in outcome. The same holds true for many of the attacks discussed in this paper. 
+
+802.11% is this one really relevant anymore- most research is form 2006 or before; look into alternative
+-Queensland attack
+The Queensland attack exploits the requirement of networks utilizing 802.11b to have a clear channel assessment before sending or receiving data.  This function tests the wireless medium in order to determine if it is already in use so as to prevent sending a signal over another machine.  the Queensland attack also known as the clear channel assessment attack achieves a DoS of 802.11b wireless networks by spoofing a constant signal that informs machines inquiring about clear channel assessment that the network currently being used.  Because the machines will not communicate until given the all clear this effectively stops communication on the network. 
+\subsubsection{Data Link}
+
+Layered model against encryption
+\subsubsection{Network}
+Fraggle
+Ping Flood
+Ping flood works by exploiting the natural function of ICMP echo requests to fill the bandwidth of a machine with request packets that will respond back to the address of the targeted machine. The subsequent "flood" of reply packets can be quite effective at consuming enough bandwidth to DoS the desired client.  The Ping command itself is not malicious and is generally included in most networked applications/systems in order to test connectivity and gather data on round trip time of requests.  The response nature of ping makes the function exploitable in a pseudo bot-net fashion, turning the power of the collected systems of a network against an individual targeted machine in order to overwhelm its communication limits.  An IP address of the target or some specific name that resolves to the target is required as well as a system that has multiple machines that use ping or a similar program with similar functionality in order to launch a successful attack.  
+Smurf
+
+Fraggle and Smurf attacks work on the same principal as ping floods.  
+
+%John stuff start
+The paper \cite{Yousef2017PeopleBot} has a bit of information of DoS attacks on different levels, mostly with regards to the PeopleBot. Specifically, it mentions the de auth attack and the IPv6 Router Advertisement (RA) attack. They both accomplish a DoS.
+%John stuff end
+
+\subsection{Eavesdropping}
+Eavesdropping like DoS is made simpler for attackers by the medium of wireless communication.  Unless signals are beamed or formed the attacker can position themselves within the radius of the broadcast signal. This problem becomes compounded when individual robots acts as relays or communication nodes as the wireless network coverage area becomes larger.  The primary goal of eavesdropping is to gain access to communications, with a secondary goal of doing so without being detected.  Even if collected transmissions are encrypted details about the network or information being sent may still be available and useful in setting up other malicious behaviors.  
+
+\subsection{Man in the Middle}
+Man in the Middle (MitM) attacks focus on gaining or spoofing a level of trust on a network in order act as a "middle" man between communicating nodes. The MitM client acts a sort of proxy for communication giving it access to communication often even if encrypted.  Furthermore MitM clients can inject and send malicious transmissions that appear to come from legitimate sources.  MitM often starts with sniffing for network communication or eavesdropping for a communication system to compromise.  After successfully compromising a network, MitM attacks often give attackers the ability to sniff for more traffic, access connected networks, manipulate transmission content (including sending malicious traffic), hijack sessions, and view encrypted transmissions.  Wireless systems (specifically those with mobile or roaming nodes) are at an increased susceptibility due to range limitations.  Often the MitM client will have to compete with the original signal, but if two nodes are out of range of each other the MitM client may be situated within range of them both preventing the need to compete with the original signal. Robots are often designed to inherently trust communication and malicious actors my move without notice. 
+
+%John info start
+This paper\cite{Bonaci2012} breaks down MitM stuff a bit and mentions the Raven II as an example of a MitM attack.
+
+This paper \cite{Yousef2018AnalyzingCT} lists pseudocode for a MitM attack. It also talks about various other attacks, which could be useful to back up other specific attacks.
+%John info end
+
+\subsection{Sybil}
+%Gil_2017
+\cite{Gil2017GuaranteeingSM}
+"In a Sybil attack a malicious agent generates (or spoofs) a large number of false identities to gain a disproportionate influence in the network. These attacks are notoriously easy to implement (Sheng et al. 2008) and can be detrimental to multi-robot networks."
+"This is because many characteristics unique to robotic networks make security more challenging; for example, traditional key passing or cryptographic authentication is difficult to maintain due to the highly dynamic and distributed nature of multi-robot teams where clients often enter and exit the network."
+
+Sybil attacks specifically target multiple agent/node systems or networks, by spoofing multiple fake clients.  A single malicious client may fake a large number of fake clients in order to gain various control or influence of the targeted network.  
+%Gil_2017
+"Douceur proves several results showing that without a centralized authority, Sybil attacks are always possible for any practical distributed network."
+
+The vulnerabilities of multi-node systems to Sybil attacks is compounded when the mobility of robots is accounted for.  
+%Gil_2017 Three Categories of mitigation: Cryptographic Authentication, Non cryptographic techniques, Wireless signal information techniques
+
+%Gil_2017 
+demonstrates a successful proof of concept of Sybil attacks against a mobile robot cluster. 
+
+%John info start
+This paper \cite{Basan:2017} also mentions Sybil, amongst other attacks.
+This paper \cite{Basan2018} (different from the previous paper mentioned) mentions Sybil and DDoS on mobile robot networks.
+%John info end
+
+\subsection{Encryption Cracking}
+Limited resources may force robots (especially older systems or budget devices) to utilize less secure cryptographic methods.  The mobile nature and inherent need for trust required of many robot implementations make it difficult to effectively implement defenses or mitigations implemented in static configurations
+
+%Robots
+
+%none of the following subsections are highly organized and can probably fit better in the above sections in some way
+\subsection{Unauthenticated TCP Port}
+This paper, \cite{Miller:2018}, makes the point that if a TCP port doesn't require authentication (eg, SSH), then commands can be remotely executed on a robot.
+
+
+%this might fit under another section, so we can put it there later.
+\subsection{Raven II}
+The Raven II is a teleoperated surgical robot. Bonaci et al. performed manipulation, modification, and hijacking attacks on this machine with the intent to expose the lack of security in robotics \cite{BonaciHYYKC15}. They were successful in breaching security; however they claimed it would be extremely easy to prevent the attacks the performed (both easy to implement and computationally easy) \cite{BonaciHYYKC15}.
+
+\subsection{Mobile Service Robots}
+The paper, \cite{Cornelius}, is interesting because it outlines the security issues with mobile service robot (ie, robots that are used in the home and move around). The attackers motive are broken down into 2 categories: data theft (specifically sensor data, which is unique to robots) and destruction of environment. The attack vectors are broken down into 4 categories, each with specific kinds of attacks: attacks on sensor data, hardware, software, and infrastructure. 
+
+This paper, \cite{Denning:2009}, is a little older but has interesting things. It mentions robotic vandalism, spying with robots (specifically with a Rovio robot), and even psychological attacks. Spying is important to talk about because robots are used differently than standard computers and therfore have different data.
+
+\subsection{Deauthentication}
+This paper describes IJam, a death tool that they created \cite{Al-Ani:2017}. It was created for WiFi networks, but could be used for robot networks that use WiFi as they medium of communication.
+
+\section{Random Cites}
+Sybil and spoof resilience\cite{Gil2017GuaranteeingSM}\\ %looks like it is used above, but the \cite{} is not.
+
+Does have a section describing different attacks (maybe better in gen security)\cite{Kalam2016BilateralTS}\\
+
+This paper lists attacks on IoT WSNs \cite{Mostefa2017}. It also has counter measure for various attacks, useful in mitigations (though not there yet).

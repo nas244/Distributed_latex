@@ -1,0 +1,107 @@
+%!TEX root =  root.tex
+
+\section{Mitigations}
+    The need for cyber security in robotic systems has gained more awareness as robot usage has increased in the industrial and commercial environments. Security concerns are amplified by the physical environment that robots often operate in as well as safety and security concerns associated with human-robot interactions \cite{Cornelius}.  As robotic systems attain more trust and usage within networks, they become an increasingly desirable target for malicious actors \cite{Archibald2017ASO, Cornelius}. Research focused on analysing cyber security concerns in robotic systems, mitigation techniques, and safe development practices is on the rise \cite{article:Martin}.  
+%outline for secure communications section of mitigations
+% secure communications:
+%% encryption
+%%% encryption techniques
+%%% key management/generation
+%% authentication/access control- tie encryption in here
+%%% authentication techniques
+
+\subsection{Securing Communications}
+    
+\subsection{Encryption Techniques}
+Communicating over an open wireless channel is not new, nor are the problems that come with it (such as sending secrets over that open channel). In order to have secure communications, people use encryption. Encryption is also not a novel solution (it predates digital computers). The novel problem in robotic networks is the limited power and computational (find a paper and cite this shit). Secondary solutions have been proposed that make encryption possible with limited resources and power. 
+\rayborn{Key Generation and resource utilization, how does memristors work with this}
+
+% we really need to tie encryption into authentication, without encryption it would be hard 
+
+Packet encryption\cite{ALAZZAM20188}
+
+\subsubsection{Memristors}
+A memristor is a hardware component that allows for generating session keys at the hardware level (as opposed to the software/application level)\cite{abunahla17}. This is much faster and less expensive than software level key generation and is proven secure with the Scyther test\cite{abunahla17}.
+
+\subsubsection{Key management}
+One technique used it a protocol that allows each node (robot) in the network to store a minimal number of keys\cite{Elgenaidi2016}.
+Other technique has a simplified key distribution mechanism for session keys\cite{Qin:2017}. %or something like that. 
+This techique uses JTAG numbers for encrypting messages (and not TLS/SSL) making it compact and secure\cite{Yfantis1}.
+
+\subsection{Physical Layer}
+
+\subsection{Data Link Layer}
+
+\subsection{Network Link}
+
+\subsubsection{Q-IPSec} 
+Q-IPSec is the combination of QoS (quality of service) and IPSec (internet protocol security)\cite{Kalam2016BilateralTS}. It has been expirementally proven to provide the normal security with IPSec as well as the QoS necessary for teleoperation\cite{Kalam2016BilateralTS}. This could also be used in robotic or IoT systems, theoretically. %maybe find another way to say this or delete it alltogether.
+
+\subsection{Transport}
+
+\subsection{Frameworks}
+Robotic frameworks help designers and coders by abstracting complexities into more readily accessible constructs.  The framework offers a simpler format for designers to work with, enabling implementation of complex behaviors, simulation, and testing, and a standardized code base.  The robotic operating system (ROS) framework has proven itself a reliable tool for implementing and simulating robot designs.  Updates to ROS have focused on securing the framework and end results of systems built utilizing ROS as a framework.  
+
+%start John info
+%I believe ROS should have its own section because of how important it seems to be.
+%Agree I also think we can discuss how ROS insecurities is often made up of other security concerns such as ROS communication and encryption.  
+
+ROS secure comms \cite{inproceedings:Breiling}\\
+
+This paper \cite{article:Martin} discusses quite a few frameworks, including ROS and compares them with and without security stuff enabled. Also discusses the hardware abstraction layer (HAL).
+
+This paper \cite{thesis:Shyvakov} was written when ROS did not have authentication for TCP comms. Either way, it looks at ROS and YARP, and it introduces a new framework that the author created.
+
+\subsubsection{Protocols} %some papers have developed there own protocols or talk about ways to augment other. It goes hand in hand with frameworks, in my opinion. If this section should go somewhere else, feel free to move it as necessary.
+
+Communication protocols are important not just for the operation of the network. They lay the groundwork on which security (as well as other applications) are built. An efficient, effective, and robust protocol allows for security to be added in easily (or provides it inherently).
+
+This paper \cite{Burg2018} has information about many wireless standards, such as 802.11, Zigbee, Bluetooth, RFID, 2/3G, as well as others. The security discussion is in the context of IoT networks, which could be useful. However, I think the true value in the paper lies in the outlining of these protocols.
+
+This paper \cite{Basan:2018:DMT:3264437.3264482} describes 802.11 and how to attack it. It also provides a checklist of things to do in order to test basic security of your robot network (though it does not provide a security framework for use).
+
+This paper \cite{Trivedi:2018} provides a Robotic Wireless Mesh Protocol (RWMP) for an 802.11 robotic network (although it doesn't follow the IEEE 802.11 routing standards and whatnot). Using NS3, they ran experiments (simulating deployed robots, not just stationary nodes) and claim that their protocol outperforms the conventional protocol.
+
+This paper \cite{Min2013} talks about using directional antennas (off the shelf) for long range reliable comms. It's not exactly security, but it is robotic communication. Maybe this should be placed elsewhere.
+
+This paper \cite{Tardioli2014} introduces a multihop routing algorithm based on RT-WMP but with better bandwidth guarantees and lower power comsumption. They actually set it up (in ROS, I believe) and ran expirements in the real world. Also, in their abstract, they claim that centralized routing is a no-go in robot networks. They say that most of time, the upper levels of the protocol stack are relied upon, and these don't handle robot networks well.
+
+%end John info
+
+%Framework level? Insecurities in abstraction, fixes?
+%Attacks that abuse resources such as power by forcing movement
+
+\subsection{Attack Detection}
+
+Instead of simply preventing every attack, another way to protect a system is to detect on going attacks and taking action to mitigate or stop said attack. This section will cover a few methods for detecting attacks.
+
+\subsubsection{Physical Wireless Signals}
+
+The Sybil attack is carried out by one robot spoofing the identities of multiple robots (i.e. it's pretending to be more than one robot). One way to prevent this is to use the physics of wireless signals to detect whether or not a single robot is pretending to be multiple robots (this can be used for replay attacks as well)\cite{Gil2017GuaranteeingSM}.
+
+\subsubsection{Decision Tree IDS}
+
+An internal detection system (IDS) is used for detecting attacks in an internal network. Generally, this is too resource intensive for a robotic network. One way to fix this is to simplify it by making a simple decision tree based IDS\cite{Vuong2015}. This has been experimentally proven to be able to detect DoS and command injection attacks\cite{Vuong2015}.
+  
+\subsubsection{Sybil/DDoS detection}
+
+This paper \cite{Basan2018} discussed a way to detect Sybil and DDoS attacks in a mobile robot network. It does not describe how to prevent or mitigate these attacks, but is does say that looking at violations in the network logic is key to detecting them. It also says that the protocol used is irrelevant because it looks at network logic. Also, it claims that attacks on robot networks need not be distributed, rather "rapid and intensive." This is because a distributed attack takes a lot of time and energy (I believe is what its saying, read the conclusion, 2nd bullet point) and robot networks operate for a limited amount of time.
+
+\section{Random Cites}
+
+Packet encryption\cite{ALAZZAM20188}\\ % adding this one to the encryption section dcr101
+ROS secure comms \cite{inproceedings:Breiling}\\ %moving this to Framework/ROS section dcr101
+2 factor auth \cite{Miglani2FA}\\ %create a verification/authentication section? I believe we probably have enough papers to create one
+Straight mitigation \cite{inbook:Priyadarshini}\\ %moving to detection/ids also contains some good material on IRL attacks, and attacks in general so adding to specific attacks too
+WSN threat detection (mothon) \cite{Lasota2016}\\
+Controllable communication frequencies as an attack mitigation \cite{Park2018}\\
+Mobile robot control group security protocol \cite{Basan:2017}\\
+
+
+This paper talks about a non coordinated attack on a WSN anchor nodes. Most people will "prune the nods from the network, but this paper is saying dont do that. Really its saying dont let it get to that point. I'm trying to figure out where to put this \cite{Mofarreh-Bonab2012} %I = John in this case
+%Upon thinking more about the above paper about pruning, I'm thinking maybe the introduction of the paper or the intro of the mitigation section. I think it would useful to show why security is needed in real world applications. I think the idea is that if you have to stop using your own hardware because it was compromised, you've already lost.
+
+
+antenna selection algorithm that is divided intro subproblems. Talks too much about cellular stuff.  \cite{Sheikhzadeh2018}
+
+This paper \cite{Strobel:2018} discusses using blockchain to verify the correctness of data/communications, whatever. They did not implement it in the real world, and don't know what would happen if the network sucked. Also, they noted blockchain packet use a whole lot more data (160 bytes vs 4 bytes) than a classical approach that they examined. This could a useful example of going overboard, maybe?

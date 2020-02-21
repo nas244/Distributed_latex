@@ -1,0 +1,80 @@
+\documentclass[journal]{IEEEtran}
+
+\usepackage{authblk}
+\usepackage{verbatim}
+\usepackage{times}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{epsfig}
+\usepackage{url}
+\usepackage{xcolor}
+\usepackage{xspace}
+\usepackage{pgfgantt}
+\usepackage{booktabs}
+\usepackage{stfloats}
+\usepackage{subcaption}
+\usepackage{tcolorbox}
+\usepackage{caption}
+\usepackage[ruled]{algorithm2e}
+\usepackage[normalem]{ulem}
+
+\newcommand{\defn}[1]{\textbf{\emph{#1}}}
+\usepackage{enumitem} % Max: pulling bullets left
+
+
+\newcommand{\chris}[1]{\ifcomments {\noindent \scriptsize  \textcolor{red} {Chris: {#1}}} \fi{}}
+\newcommand{\john}[1]{\ifcomments {\noindent \scriptsize  \textcolor{blue} {John: {#1}}} \fi{}}
+\newcommand{\rayborn}[1]{\ifcomments {\noindent \scriptsize  \textcolor{green} {Daniel: {#1}}} \fi{}}
+\newcommand{\maxwell}[1]{\ifcomments {\noindent \scriptsize  \textcolor{orange} {Max: {#1}}} \fi{}}
+
+\newif\ifcomments
+\commentstrue
+
+\definecolor{darkblue}{rgb}{0.0,0.0,0.75}
+\newenvironment{revfont}{\color{darkblue}}
+
+
+\begin{document}
+
+\title{Security of Wireless Communication For \\Mobile Robot Networks: A Survey}
+
+\author{Christopher~Archibald,
+        John~Grogan,
+        Daniel~Rayborn,
+        and~Maxwell~Young% <-this % stops a space
+}
+
+% make the title area
+\maketitle
+
+\begin{abstract}
+\end{abstract}
+
+\begin{IEEEkeywords}
+\end{IEEEkeywords}
+
+\input{introduction}
+%GeneralSecurity
+%SpecificAttack
+%Mitigation
+\input{maxwell}
+
+\input{GeneralSecurity}
+\input{SpecificAttacks}
+\input{Mitigation}
+\input{conclusion}
+
+\IEEEpeerreviewmaketitle
+
+\section{Introduction}
+
+\section{Conclusion}
+
+\section*{Acknowledgment}
+
+\bibliographystyle{plain}
+\bibliography{robo.bib,jam.bib}
+
+\end{document}
