@@ -1,22 +1,25 @@
 %!TEX root =  root.tex
 
 \section{General Security}
-\subsection{CIAA}
-CIAA is an initialism that includes the original CIA triad and adds an extra letter. Fully enumerated: Confidentiality, Integrity, Availability, and \textit{Authentication}.  CIAA breaks security concerns into four distinct categories to aid in security assessment and discussion.  
+\subsection{CIAA}  
 %cite Martin 2017 here
+CIAA is one of the main approaches to security classifications utilized by cybersecurity experts and we will be using it for classification purposes. Fully enumerated CIAA stands for confidentiality, integrity, availability, and authentication. This classification system allows security concerns to be broken into four distinct categories to aid in security assessment and discussion. 
 
 \subsubsection{C - Confidentiality}
 
 %change wording, esp. "determines"
-The confidentiality of data and assets primarily refers to access control between data and users. I.e. who or what can or cannot access data or assets. Specifically, if data/assets are confidential, only the people who should see/use them can. Confidentiality is breached when someone views data/assets that they are not allowed to see. It is obvious to see how data is or is not confidential. Assets are a little more subtle. Assets include hardware and software. So, who cares if someone knows that they have 4 hard drives on the network or are running an Apache web server? It is important to be able to control who knows the existence of assets because knowledge of assets can give an attacker a leg up.
+
+Maintaining the confidentiality of data and assets primarily refers to maintaining access control between data and users. Specifically, this idea has to do with ensuring that only select users can access data or assets that they should and is considered breached when non-authorized users can view or gain access. Data includes items such as network packets or other items of a digital nature that the system gather, process, and possibly save. Assets items include hardware and specific software structures that the system is using to process data and complete other tasks. For both of these items confidentiality is highly important as having unauthorized access to either or both creates the possibility for compromised systems and abuse. 
 
 \subsubsection{I - Integrity}
 
-Integrity of data and assets says that data/assets should be unmodified and assets should be functioning properly. Moreover, it also means that data should be correct and that assets take in and produce correct data (although this is outside of the scope of security). Integrity also determines who can modify data and assets. Obviously you only want certain people changing values in the database and pushing changes to your Git repository.
+Integrity of data and assets means ensuring that the items maintain a level of ability to detect when modifications have been made and/or prevented. For many systems data integrity is the largest concern as the data that is being processed and having decisions made upon should be as correct as possible and that the system should be able to determine if the data appears to be altered though either data corruption or by a malicious actor. For a robotic system concerns of asset integrity is necessary as well as physical access to the robot is possible in many cases and thus the robot must be able to detect and be confident in it's asset's ability to function within expectations.
 
 \subsubsection{A - Availability}
 
 Availability of data and assets determines when said data/assets are ready to be seen/modified/used/etc. Data should be easily accessible by those who are allowed to see and hardware/software (such as web servers) need to also be available to people who are allowed to use it. For example, when I go to www.google.com, I expect to be able to search for anything via that service. If it unavailable, then I cannot use that service, rendering it useless. The same thing applies to data. If I cannot access my data, it is useless.
+
+
 
 \subsubsection{A - Authentication}
 
