@@ -12,12 +12,6 @@ Aerohive.
 \newblock {Wi-Fi} planning tool, 2018.
 \newblock \url{www.aerohive.com/planner/}.
 
-\bibitem{Al-Ani:2017}
-Haitham Al-Ani and Ahmed Al-Zubidy.
-\newblock Introducing ijam wireless de-authentication attack tool.
-\newblock In {\em Proceedings of the SouthEast Conference}, ACM SE '17, pages
-  199--202, New York, NY, USA, 2017. ACM.
-
 \bibitem{ALAZZAM20188}
 Saad Al-Azzam, Ahmad Sharieh, Azzam Sleit, and Nedaa Al-Azzam.
 \newblock Securing robot communication using packet encryption distribution.
@@ -69,19 +63,6 @@ Roberto Battiti, Mauro Brunato, and Andrea Delai.
   services.
 \newblock 2003.
 
-\bibitem{Bonaci2012}
-T.~{Bonaci} and H.~J. {Chizeck}.
-\newblock On potential security threats against rescue robotic systems.
-\newblock In {\em 2012 IEEE International Symposium on Safety, Security, and
-  Rescue Robotics (SSRR)}, pages 1--2, Nov 2012.
-
-\bibitem{BonaciHYYKC15}
-Tamara Bonaci, Jeffrey Herron, Tariq Yusuf, Junjie Yan, Tadayoshi Kohno, and
-  Howard~Jay Chizeck.
-\newblock To make a robot secure: An experimental analysis of cyber security
-  threats against teleoperated surgical robots.
-\newblock {\em CoRR}, abs/1504.04339, 2015.
-
 \bibitem{booth17:piggybacking}
 Serena Booth, James Tompkin, Hanspeter Pfister, Jim Waldo, Krzysztof Gajos, and
   Radhika Nagpal.
@@ -102,25 +83,11 @@ A.~{Burg}, A.~{Chattopadhyay}, and K.~{Lam}.
   systems and the internet-of-things.
 \newblock {\em Proceedings of the IEEE}, 106(1):38--60, Jan 2018.
 
-\bibitem{Cepheli-2013}
-Özge Cepheli and Gunes Karabulut~Kurt.
-\newblock Physical layer security in wireless communication networks.
-\newblock pages 61--81, 01 2013.
-
 \bibitem{lmrs}
 Federal~Communications Commission.
 \newblock Private land mobile radio services, 2018.
 \newblock
   \url{https://www.fcc.gov/wireless/bureau-divisions/mobility-division/private-land-mobile-radio-services}.
-
-\bibitem{Denning:2009}
-Tamara Denning, Cynthia Matuszek, Karl Koscher, Joshua~R. Smith, and Tadayoshi
-  Kohno.
-\newblock A spotlight on security and privacy risks with future household
-  robots: Attacks and lessons.
-\newblock In {\em Proceedings of the 11th International Conference on
-  Ubiquitous Computing}, UbiComp '09, pages 105--114, New York, NY, USA, 2009.
-  ACM.
 
 \bibitem{douceur02sybil}
 John Douceur.
@@ -250,13 +217,6 @@ D.~{Miglani} and A.~{Hensman}.
 \newblock In {\em 2015 IEEE International Symposium on Technology and Society
   (ISTAS)}, pages 1--4, Nov 2015.
 
-\bibitem{Miller:2018}
-Justin Miller, Andrew~B. Williams, and Debbie Perouli.
-\newblock A case study on the cybersecurity of social robots.
-\newblock In {\em Companion of the 2018 ACM/IEEE International Conference on
-  Human-Robot Interaction}, HRI '18, pages 195--196, New York, NY, USA, 2018.
-  ACM.
-
 \bibitem{Min2013}
 B.~{Min}, E.~T. {Matson}, and B.~{Khaday}.
 \newblock Design of a networked robotic system capable of enhancing wireless
@@ -295,12 +255,6 @@ S.~{Park}, S.~{Kim}, D.~D. {Cho}, S.~{Jang}, J.~{sung}, and S.~{Kim}.
   malicious attacks.
 \newblock In {\em 2018 18th International Conference on Control, Automation and
   Systems (ICCAS)}, pages 120--123, Oct 2018.
-
-\bibitem{pelechrinis:denial}
-Konstantinos Pelechrinis, Marios Iliofotou, and Srikanth~V. Krishnamurthy.
-\newblock {Denial of Service Attacks in Wireless Networks: The Case of
-  Jammers}.
-\newblock {\em To appear in IEEE Communications Surveys \& Tutorials}, 2011.
 
 \bibitem{inbook:Priyadarshini}
 Ishaani Priyadarshini.
@@ -381,13 +335,6 @@ T.~P. {Vuong}, G.~{Loukas}, D.~{Gan}, and A.~{Bezemskij}.
   injection attacks on robotic vehicles.
 \newblock In {\em 2015 IEEE International Workshop on Information Forensics and
   Security (WIFS)}, pages 1--6, Nov 2015.
-
-\bibitem{Yousef2017PeopleBot}
-K.~M.~A. {Yousef}, A.~{AlMajali}, R.~{Hasan}, W.~{Dweik}, and B.~{Mohd}.
-\newblock Security risk assessment of the peoplebot mobile robot research
-  platform.
-\newblock In {\em 2017 International Conference on Electrical and Computing
-  Technologies and Applications (ICECTA)}, pages 1--5, Nov 2017.
 
 \bibitem{Yousef2018AnalyzingCT}
 Khalil M.~Ahmad Yousef, Anas AlMajali, Salah~Abu Ghalyon, Waleed Dweik, and
