@@ -1,20 +1,11 @@
-<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.2.29)  2 MAR 2020 17:53
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.29)  2 MAR 2020 17:55
->>>>>>> Logan'sSecretChocolateBranch
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **root.tex
 (./root.tex
-<<<<<<< HEAD
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
-=======
-LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
->>>>>>> Logan'sSecretChocolateBranch
 (/usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
@@ -140,11 +131,7 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-<<<<<<< HEAD
 Package: amsmath 2016/03/03 v2.15a AMS math features
-=======
-Package: amsmath 2017/09/02 v2.17a AMS math features
->>>>>>> Logan'sSecretChocolateBranch
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
@@ -161,32 +148,23 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen127
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-<<<<<<< HEAD
 Package: amsopn 1999/12/14 v2.01 operator names
-=======
-Package: amsopn 2016/03/08 v2.02 operator names
->>>>>>> Logan'sSecretChocolateBranch
 )
 \inf@bad=\count97
-LaTeX Info: Redefining \frac on input line 213.
+LaTeX Info: Redefining \frac on input line 199.
 \uproot@=\count98
 \leftroot@=\count99
-LaTeX Info: Redefining \overline on input line 375.
+LaTeX Info: Redefining \overline on input line 297.
 \classnum@=\count100
 \DOTSCASE@=\count101
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box28
 \strutbox@=\box29
 \big@size=\dimen128
-<<<<<<< HEAD
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-=======
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
->>>>>>> Logan'sSecretChocolateBranch
 \macc@depth=\count102
 \c@MaxMatrixCols=\count103
 \dotsspace@=\muskip10
@@ -207,19 +185,11 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \multlinegap=\skip47
 \multlinetaggap=\skip48
 \mathdisplay@stack=\toks21
-<<<<<<< HEAD
 LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2015/03/04 v2.20.2
-=======
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2017/10/31 v2.20.4
->>>>>>> Logan'sSecretChocolateBranch
 \thm@style=\toks22
 \thm@bodyfont=\toks23
 \thm@headfont=\toks24
@@ -241,7 +211,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-<<<<<<< HEAD
 Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
@@ -262,46 +231,21 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-=======
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
->>>>>>> Logan'sSecretChocolateBranch
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks28
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-<<<<<<< HEAD
 Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
-=======
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
->>>>>>> Logan'sSecretChocolateBranch
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-<<<<<<< HEAD
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 95.
-=======
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
->>>>>>> Logan'sSecretChocolateBranch
 )
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
@@ -312,11 +256,7 @@ LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
-<<<<<<< HEAD
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-=======
-Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
->>>>>>> Logan'sSecretChocolateBranch
 \epsfxsize=\dimen137
 \epsfysize=\dimen138
 )
@@ -325,7 +265,6 @@ Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-<<<<<<< HEAD
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
@@ -342,34 +281,12 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-=======
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-LaTeX Info: Redefining \color on input line 709.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
->>>>>>> Logan'sSecretChocolateBranch
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty
-<<<<<<< HEAD
 Package: pgfgantt 2013/06/01 v4.0 Draw Gantt diagrams with TikZ
-=======
-Package: pgfgantt 2018/01/10 v5.0 Draw Gantt diagrams with TikZ
->>>>>>> Logan'sSecretChocolateBranch
 
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -413,10 +330,10 @@ ex
 \pgf@yc=\dimen148
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count109
-\c@pgf@countb=\count110
-\c@pgf@countc=\count111
-\c@pgf@countd=\count112
+\c@pgf@counta=\count110
+\c@pgf@countb=\count111
+\c@pgf@countc=\count112
+\c@pgf@countd=\count113
 \t@pgf@toka=\toks33
 \t@pgf@tokb=\toks34
 \t@pgf@tokc=\toks35
@@ -435,8 +352,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count113
-\pgfsyssoftpath@bigbuffer@items=\count114
+\pgfsyssoftpath@smallbuffer@items=\count114
+\pgfsyssoftpath@bigbuffer@items=\count115
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -450,7 +367,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen149
-\pgfmath@count=\count115
+\pgfmath@count=\count116
 \pgfmath@box=\box31
 \pgfmath@toks=\toks36
 \pgfmath@stack@operand=\toks37
@@ -474,11 +391,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-<<<<<<< HEAD
 \c@pgfmathroundto@lastzeros=\count117
-=======
-\c@pgfmathroundto@lastzeros=\count116
->>>>>>> Logan'sSecretChocolateBranch
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
@@ -516,7 +429,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box32
 \pgf@hbox=\box33
 \pgf@layerbox@main=\box34
-\pgf@picture@serial@count=\count117
+\pgf@picture@serial@count=\count118
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -549,7 +462,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen173
-\pgf@sys@shading@range@num=\count118
+\pgf@sys@shading@range@num=\count119
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -606,7 +519,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count119
+\pgf@plot@mark@count=\count120
 \pgfplotmarksize=\dimen178
 )
 \tikz@lastx=\dimen179
@@ -619,18 +532,18 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box38
 \tikz@tempbox=\box39
 \tikz@tempbox@bg=\box40
-\tikztreelevel=\count120
-\tikznumberofchildren=\count121
-\tikznumberofcurrentchild=\count122
-\tikz@fig@count=\count123
+\tikztreelevel=\count121
+\tikznumberofchildren=\count122
+\tikznumberofcurrentchild=\count123
+\tikz@fig@count=\count124
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count124
-\pgfmatrixcurrentcolumn=\count125
-\pgf@matrix@numberofcolumns=\count126
+\pgfmatrixcurrentrow=\count125
+\pgfmatrixcurrentcolumn=\count126
+\pgf@matrix@numberofcolumns=\count127
 )
-\tikz@expandcount=\count127
+\tikz@expandcount=\count128
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -680,9 +593,8 @@ File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
 File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
-\pgfcalendarcurrentjulian=\count128
+\pgfcalendarcurrentjulian=\count129
 ))
-<<<<<<< HEAD
 \gtt@currentline=\count130
 \gtt@lasttitleline=\count131
 \gtt@currgrid=\count132
@@ -699,26 +611,6 @@ File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
 \gtt@right@slot=\count143
 ) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-=======
-\gtt@currentline=\count129
-\gtt@lasttitleline=\count130
-\gtt@currgrid=\count131
-\gtt@chartwidth=\count132
-\gtt@lasttitleslot=\count133
-\gtt@elementid=\count134
-\gtt@today@slot=\count135
-\gtt@startjulian=\count136
-\gtt@endjulian=\count137
-\gtt@chartid=\count138
-\gtt@vrule@slot=\count139
-\gtt@calendar@slots=\count140
-\gtt@calendar@weeknumber=\count141
-\gtt@calendar@startofweek=\count142
-\gtt@left@slot=\count143
-\gtt@right@slot=\count144
-) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2016/04/27 v1.618033 publication quality tables
->>>>>>> Logan'sSecretChocolateBranch
 \heavyrulewidth=\dimen186
 \lightrulewidth=\dimen187
 \cmidrulewidth=\dimen188
@@ -729,40 +621,28 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen193
 \cmidrulekern=\dimen194
 \defaultaddspace=\dimen195
-\@cmidla=\count145
-\@cmidlb=\count146
+\@cmidla=\count144
+\@cmidlb=\count145
 \@aboverulesep=\dimen196
 \@belowrulesep=\dimen197
-\@thisruleclass=\count147
-\@lastruleclass=\count148
+\@thisruleclass=\count146
+\@lastruleclass=\count147
 \@thisrulewidth=\dimen198
 )
 (/usr/share/texlive/texmf-dist/tex/latex/sttools/stfloats.sty
-<<<<<<< HEAD
 Package: stfloats 2016/02/08 v2.0 Improve float mechanism and baselineskip sett
-=======
-Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip sett
->>>>>>> Logan'sSecretChocolateBranch
 ings
-\@dblbotnum=\count149
-\c@dblbotnumber=\count150
+\@dblbotnum=\count148
+\c@dblbotnumber=\count149
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-<<<<<<< HEAD
 Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
-=======
-Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
->>>>>>> Logan'sSecretChocolateBranch
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-<<<<<<< HEAD
 Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
-=======
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
->>>>>>> Logan'sSecretChocolateBranch
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen199
 \captionmargin@=\dimen256
@@ -790,19 +670,12 @@ ormalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONcon
 ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
 \else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi 
 \fi .
-\c@ContinuedFloat=\count151
+\c@ContinuedFloat=\count150
 )
-<<<<<<< HEAD
 \c@subfigure=\count151
 \c@subtable=\count152
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2016/02/29 version 3.90 text color boxes
-=======
-\c@subfigure=\count152
-\c@subtable=\count153
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2018/01/12 version 4.12 text color boxes
->>>>>>> Logan'sSecretChocolateBranch
 
 (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
@@ -811,21 +684,16 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-<<<<<<< HEAD
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count153
-=======
-Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count154
->>>>>>> Logan'sSecretChocolateBranch
 )
 \tcb@titlebox=\box43
 \tcb@upperbox=\box44
 \tcb@lowerbox=\box45
 \tcb@phantombox=\box46
-\c@tcbbreakpart=\count155
-\c@tcblayer=\count156
-\tcolorbox@number=\count157
+\c@tcbbreakpart=\count154
+\c@tcblayer=\count155
+\tcolorbox@number=\count156
 \tcb@temp=\box47
 \tcb@temp=\box48
 \tcb@temp=\box49
@@ -834,29 +702,24 @@ Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \tcb@record@out=\write5
 )
 (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
-<<<<<<< HEAD
 Package: algorithm2e 2013/01/06 v5.00 algorithms environments
 \c@AlgoLine=\count157
-=======
-Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count158
->>>>>>> Logan'sSecretChocolateBranch
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \algocf@hangindent=\skip52
 
-<<<<<<< HEAD
-=======
-(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count159
-)
->>>>>>> Logan'sSecretChocolateBranch
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
+********************************************************
+Package `algorithm2e' Release 5.1 -- october 19 2015 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (christophe.fiorio@umontpellier.fr)
+********************************************************
 \skiptotal=\skip53
 \skiplinenumber=\skip54
 \skiprule=\skip55
@@ -882,28 +745,22 @@ Package: relsize 2013/03/29 ver 4.1
 \algocf@untilbox=\box55
 \algocf@skipuntil=\skip65
 \algocf@capbox=\box56
-\algocf@lcaptionbox=\skip66
-\algoheightruledefault=\skip67
-\algoheightrule=\skip68
-\algotitleheightruledefault=\skip69
-\algotitleheightrule=\skip70
-\c@algocfline=\count160
-\c@algocfproc=\count161
-\c@algocf=\count162
+\algoheightruledefault=\skip66
+\algoheightrule=\skip67
+\algotitleheightruledefault=\skip68
+\algotitleheightrule=\skip69
+\c@algocfline=\count158
+\c@algocfproc=\count159
+\c@algocf=\count160
 \algocf@algoframe=\box57
 \algocf@algobox=\box58
-<<<<<<< HEAD
 ) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
-=======
-)
-(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
->>>>>>> Logan'sSecretChocolateBranch
 \UL@box=\box59
 \UL@hyphenbox=\box60
-\UL@skip=\skip71
+\UL@skip=\skip70
 \UL@hook=\toks41
 \UL@height=\dimen268
-\UL@pe=\count163
+\UL@pe=\count161
 \UL@pixel=\dimen269
 \ULC@box=\box61
 Package: ulem 2012/05/18
@@ -911,15 +768,11 @@ Package: ulem 2012/05/18
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip72
+\labelindent=\skip71
 \enit@outerparindent=\dimen271
 \enit@toks=\toks42
 \enit@inbox=\box62
-<<<<<<< HEAD
 \enitdp@description=\count162
-=======
-\enitdp@description=\count164
->>>>>>> Logan'sSecretChocolateBranch
 ) (./root.aux)
 \openout1 = `root.aux'.
 
@@ -937,24 +790,19 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 
 -- Lines per column: 58 (exact).
-<<<<<<< HEAD
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
-=======
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
->>>>>>> Logan'sSecretChocolateBranch
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count165
+\scratchcounter=\count163
 \scratchdimen=\dimen272
 \scratchbox=\box63
-\nofMPsegments=\count166
-\nofMParguments=\count167
+\nofMPsegments=\count164
+\nofMParguments=\count165
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count168
+\MPscratchCnt=\count166
 \MPscratchDim=\dimen273
-\MPnumerator=\count169
-\makeMPintoPDFobject=\count170
+\MPnumerator=\count167
+\makeMPintoPDFobject=\count168
 \everyMPtoPDFconversion=\toks44
-<<<<<<< HEAD
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -989,57 +837,13 @@ Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-=======
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
->>>>>>> Logan'sSecretChocolateBranch
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
@@ -1066,23 +870,6 @@ Underfull \hbox (badness 4108) in paragraph at lines 17--18
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-<<<<<<< HEAD
-=======
-
-
-]) (./maxwell.tex)
-(./GeneralSecurity.tex
-Underfull \hbox (badness 3407) in paragraph at lines 19--20
- \OT1/ptm/m/it/10 3) A - Avail-abil-ity: [][] \OT1/ptm/m/n/10 Avail-abil-ity of
- data and as-sets
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-\OT1/ptm/m/n/10 de-ter-mines when said data/assets are ready to be
- []
-
->>>>>>> Logan'sSecretChocolateBranch
 
 
 ]) (./maxwell.tex)
@@ -1101,7 +888,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-<<<<<<< HEAD
 [3]) (./SpecificAttacks.tex [4]
 Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
@@ -1113,14 +899,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
  []
 
 ) (./Mitigation.tex [5]
-=======
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--52
-
- []
-
-) (./SpecificAttacks.tex [3]) (./Mitigation.tex [4]
->>>>>>> Logan'sSecretChocolateBranch
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
@@ -1135,22 +913,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--99
 
  []
 
-<<<<<<< HEAD
 [6]) (./conclusion.tex) (./root.bbl
-=======
-) (./conclusion.tex) [5] (./root.bbl
->>>>>>> Logan'sSecretChocolateBranch
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no – in font ptmr7t!
 
-Underfull \hbox (badness 2229) in paragraph at lines 87--91
+Underfull \hbox (badness 2229) in paragraph at lines 111--115
 []\OT1/ptm/m/n/8 Federal Com-mu-ni-ca-tions Com-mis-sion.  Pri-vate land mo-bil
 e ra-
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 87--91
+Underfull \hbox (badness 2150) in paragraph at lines 111--115
 \OT1/ptm/m/n/8 dio ser-vices, 2018.  $https : / / www . fcc . gov / wireless / 
 bureau-[]divisions /
  []
@@ -1161,11 +937,10 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ­ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
-[6]
+[7]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no   in font ptmr7t!
-<<<<<<< HEAD
 ) [8] (./root.aux) ) 
 Here is how much of TeX's memory you used:
  19651 strings out of 493029
@@ -1182,29 +957,9 @@ xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
 Output written on root.pdf (8 pages, 107840 bytes).
-=======
-) [7
-
-] (./root.aux) ) 
-Here is how much of TeX's memory you used:
- 19778 strings out of 492982
- 402083 string characters out of 6134896
- 470550 words of memory out of 5000000
- 22953 multiletter control sequences out of 15000+600000
- 42329 words of font info for 87 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 62i,6n,73p,1392b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on root.pdf (7 pages, 102353 bytes).
->>>>>>> Logan'sSecretChocolateBranch
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
