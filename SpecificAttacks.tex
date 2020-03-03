@@ -1,6 +1,18 @@
 %!TEX root =  root.tex
-\section{Specific Attacks}
-\subsection{DoS/Jamming}how did you run your code
+\section{WSN Attacks in a Mobile Robot Networks}
+(\textbf{Survey On Issues In Wireless Sensor Networks: Attacks and Countermeasures}) has a list of attacks on WSNs. Look here for what could be applicable. \newline
+This is an overview of specific network attacks that can occur in Mobile Robot Networks. These are different attacks that are extended from WSNs into this area of MRNs.  
+\subsection{Jamming/DoS}
+Denial of Service (DoS) attacks aim to deny resources of a system to other potential users or operations. These attacks could be focused on any resource in order to degrade the functionality of that system. These are typically broken down into jamming and physical attacks. \newline
+(\textbf{Jamming techniques a survey}) mentions many different types of jammers and resolutions to jamming attacks. A noticeable amount of these resolutions involve detecting the jammer and recreating the network around the jammer. However for a static jammer and a mobile node, it makes sense for the node to just move away from the jammer. This is also known as a spatial retreat. This paper (\textbf{secure communication for mobile agents} *fix later*) explains the situation of jamming in multi-agent systems and offers a solution. \newline
+(\textbf{Denial of Service Attacks in Wireless Sensor Networks}) talks about DoS attacks at all the layers of the IP stack. Go into more detail about that. 
+\subsection{Physical Compromise}
+Physical attacks in WSNs occur because the nodes are not strong enough physically to protect against the environment or malicious attackers. This makes it relatively simple for an attacker to tamper with one of the nodes. This can be anywhere from uploading code, destroying the node, replacing with malicious nodes, etc (\textbf{Survey On Issues In Wireless Sensor Networks: Attacks and Countermeasures}). *Find how this an example in Mobile robot networks* 
+\subsection{Eavesdropping}
+Eavesdropping is an attack where an attacker views the content of any data that passes through a network. This breaks the confidentiality aspect of security. 
+\subsection{Sybil}
+Sybil attacks occur when an attacker places a malicious node that portrays itself as having multiple identities. This is an attack on the redundancy mechanism in the WSN. 
+\subsection{Sensor Manipulation}
 
 Denial of Service 
 
