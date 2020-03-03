@@ -35,24 +35,24 @@
 
 \section{Introduction}
 
-\maxwell{start with a story of a security threat that actually happened involving a robot network?}\medskip
+%\maxwell{start with a story of a security threat that actually happened involving a robot network?}\medskip
 % I did not find anything worth while in terms of actual malicious behavior, but there are plenty of POC's with suggested malicious outcomes
 
-The increasing presence of wireless robot networks in everyday society exacerbates many traditional security challenges and introduces several new ones. While there is a general sentiment among academics and practitioners that securing these emerging networks is critical, no consensus exists on the best way to achieve this. Coupled with this, the physical nature of robots creates new concerns or exacerbates common vulnerabilities, making many security concerns unique and traditional solutions inadequate.
+The increasing presence of wireless robot networks in society has created a new area of cybersecurity vulnerabilities. Securing these emerging networks is critical, however, there has been no consensus among experts about the best way to achieve this goal. The mobile nature of these networks exacerbates many traditional security challenges. Furthermore, the physical component of the robots in these networks provides an array of unique security issues and can render traditional solutions ineffective.
 
-Here, we survey the literature on (i) security threats that arise from the use of wireless communication among networks of mobile robots, and (ii) state-of-the-art approaches to mitigating these threats. We highlight why attacks that are stymied in more-established wireless systems stubbornly remain a threat in the context of robot networks, and we report on a range of new vulnerabilities.  Our investigation of the literature points to a domain that is currently experiencing growing pains as researchers work to address issues of security critical to the success of this increasingly popular network paradigm.
+Here, we survey the literature on (i) security threats that arise from the use of wireless communication among networks of mobile robots, and (ii) state-of-the-art approaches to mitigating these threats. We highlight why attacks that are stymied in more-established wireless systems stubbornly remain a threat in the context of robot networks, and we report on a range of new vulnerabilities.  Our investigation of the literature points to a domain that is currently experiencing growing pains as researchers work to address issues of security that are critical to the success of this increasingly popular network paradigm.
 
 
 
 
 %With the increase of wireless communication as a primary means of communication brought by infrastructure availability and physical demand and need, a subsequent growth (change me) in development of robots and robotic systems that rely on wireless communication standards has occurred.  As robots become more common in public, government, and industry, there is a growing need to secure robot development, infrastructure, and communication.  This paper will focus on the insecurities specific to wireless communication for robots and multi-robot systems. 
 
-\maxwell{please insert the citation and give more specific numbers here}***Resource shows a growing trend and expected continued growth of robot development and usage.  
+%\maxwell{please insert the citation and give more specific numbers here}***Resource shows a growing trend and expected continued growth of robot development and usage.  
 
 
-\subsection{What is Robot?}
+\subsection{What is a Robot?}
 
-While there is no single agreed-upon definition for \defn{robot}, we adopt one given by Murphy, ``an intelligent robot is a mechanical creature which can function autonomously''. To expand on the components of this definition further:
+While there is no single agreed-upon definition for \defn{robot}, we adopt one given by Murphy - a robot ``...is a mechanical creature which can function autonomously''.
 
 %We define a robot as a device that can act autonomously without the need for user input to achieve some desired task or goal.  We use the definition of an intelligent robot given by Murphy in her book Introduction to AI Robotics~\cite{}, Leading to three specific constraints:
 
@@ -62,18 +62,18 @@ While there is no single agreed-upon definition for \defn{robot}, we adopt one g
 
 %does not do things in a mindless, repetitive way; it is the opposite of the connotation from factory automation.
 
-The terminology ``mechanical creature'' refers generally to the use of mechanical components as the building blocks for the \defn{robot form} in contrast to biological components. Given the many applications where robots must interface with humans, this form is important; for example, resemblance to the human form is useful in therapy bots~\cite{} and search-and-rescue~\cite{Shin2017}. 
+The terminology ``mechanical creature'' refers generally to the use of mechanical components as the building blocks for the \defn{robot form} in contrast to biological components. Given the many applications where robots must interface with humans, this form is important; for example, resemblance to the human form is useful in therapy bots and search-and-rescue~\cite{Shin2017}. 
 
 To "function autonomously" pertains to a robot's ability to perform operations with little to no human supervision and/or user input. This distinguishes a robot from, for example, a 1980s automotive; the latter being mobile, but requiring significant human administration to accomplish a task. There is some debate on the difference between {\it autonomous} versus {\it intelligent} agents, and we refer the reader to~\cite{} for a more nuanced discussion. In this survey, we confine our terminology to the use of {\it autonomous}.
 
-Finally, implicit to our definition is "mobility". That is, a robot may change its location over time. The actual rate of change varies over different application domains. 
+Finally, implicit to our definition is "mobility". That is, a robot may change its location over time. The actual rate of change varies depending upon the application domain. 
 
 %indicates that the robot can operate, self-contained, under all reasonable conditions without requiring recourse to a human operator. Autonomy means that a robot can adapt to changes in its environment (the lights get turned off) or itself (a part breaks) and continue to reach its goal
 %\end{itemize}
 
-Given this definition, we concede that there is plenty of room to debate the inclusion of many, for example, self-driving cars~\cite{} or modern-day fighter jets~\cite{}, and we suspect no definition is free of such a gray area. 
+Given this definition, we concede that there is room to debate the inclusion of many devices, for example, self-driving cars or modern fighter jets, though we suspect that no definition provides a perfect categorization.
 
-However, this definition is a helpful heuristic for delineating between robots and many other computing devices. It captures the general notions of a robot's ability to interact with the world and effect change with little oversight or guidance. For instance, how does a robotic emergency medical technician (EMT)~\cite{} differ from a desktop computer? Approximation of the human form and mobility are clear separators. Additionally, the autonomy of the robotic EMT allows it to use a desktop computer instead of the reverse.
+However, this definition is a helpful heuristic for delineating between robots and many other computing devices. It captures the general notion of a robot's ability to interact with the world and to effect change with little oversight or guidance. For instance, how does a robotic emergency medical technician (EMT) differ from a desktop computer? Approximation of the human form and mobility are clear separators. Additionally, the autonomy of the robotic EMT allows it to use a desktop computer instead of the reverse.
 
 %A robot may use a computer as a building block, equivalent to a nervous system or brain, but the robot is able to interact with its world: move around, change it, etc. A computer doesn't move around under its own power
 
@@ -81,30 +81,36 @@ However, this definition is a helpful heuristic for delineating between robots a
 
 \subsection{Our Scope: Wireless Security \& Robots}
  
-Wireless communication has moved from a commodity to a necessity in modern infrastructures as it offers a level of flexibility and accessibility that wired communication does not. This is evidenced by the near-ubiquity of IEEE 802.11 (WiFi) networks, and the rapid growth of the Internet of Things (IoT) \maxwell{insert text on stats here} where many IoT devices communicate wirelessly. Mobility typically goes hand-in-hand with wireless communication, and while stationary robot have their uses, robot networks are likely to roughly follow the overall trend towards employing wireless communication.
+Wireless communication has moved from a commodity to a necessity in modern infrastructures as it offers a level of flexibility and accessibility that wired communication does not. This is evidenced by the near-ubiquity of IEEE 802.11 (WiFi) networks, and the rapid growth of the Internet of Things (IoT) where many IoT devices communicate wirelessly. Mobility and wireless communication go hand-in-hand, and while stationary robot have their uses, robot networks are far more likely to utilize wireless communication due to the mobility advantage it provides.
 
-Many of the challenges that face contemporary wireless networks will be pertinent to robot networks, such as sharing of a limited spectrum~\cite{}, backwards compatibility with legacy standards~\cite{}, impact of physical-layer effects on throughput and quality-of-service~\cite{}, and many others. Each of these is a vast research domain, and our survey does not focus on these issues.
+Many of the challenges facing contemporary wireless networks will be pertinent to robot networks, such as sharing of a limited spectrum, backwards compatibility with legacy standards, impact of physical-layer effects on throughput and quality-of-service, and many others. Each of these is a vast research domain, and our survey does not focus on these issues.
 
 Similarly, the topic of wireless security is vast. Well-known issues such as confidentiality, data integrity, authentication, etc. apply to mobile robot networks as much as they do to other network paradigms. However, in this survey we focus on highlighting threats that are especially pertinent to robot networks. That is, we are interested in threats that are unique to, or greatly exacerbated by, robotic networks. 
-For example:
+%For example:
 
 %John's information
+%\begin{itemize}[leftmargin = 10pt]
+
+%\item What are the implications of unsecured robot communication in XYZ industry? ...This paper \cite{Morante2015CryptoboticsWR} is useful in the intro. It coins the term "cryptobotics" and says what a lack of security in robotics could do to various industries. It doesn't really say what to do about it all, but it helps answer the question "why?" for this paper.
+
+%\item Do robot networks make us more prone to attacks that leverage human psychology or social engineering?...This paper \cite{booth17:piggybacking} says we over trust robots and gives an example experiment for this. It's more about psychology, but it's useful for the "why" of this paper, I guess. This paper \cite{Krupp2017} talks about what privacy concerns that people (not just tech people) have concerning robots. Again, it can help with the "why?" of this paper.
+
+%\item Does the interface between robot networks and other emerging systems, such as IoT, pose new vulnerabilities? ...This paper \cite{Mostefa2017} is here because it can help link IoT and robotic security/communication challenges, which will be useful later in the paper.
+%\end{itemize}
+
+
+\subsection{Layout}
+
+Our survey is structured into four primary sections:
+
 \begin{itemize}[leftmargin = 10pt]
-
-\item What are the implications of unsecured robot communication in XYZ industry? ...This paper \cite{Morante2015CryptoboticsWR} is useful in the intro. It coins the term "cryptobotics" and says what a lack of security in robotics could do to various industries. It doesn't really say what to do about it all, but it helps answer the question "why?" for this paper.
-
-\item Do robot networks make us more prone to attacks that leverage human psychology or social engineering?...This paper \cite{booth17:piggybacking} says we over trust robots and gives an example experiment for this. It's more about psychology, but it's useful for the "why" of this paper, I guess. This paper \cite{Krupp2017} talks about what privacy concerns that people (not just tech people) have concerning robots. Again, it can help with the "why?" of this paper.
-
-\item Does the interface between robot networks and other emerging systems, such as IoT, pose new vulnerabilities? ...This paper \cite{Mostefa2017} is here because it can help link IoT and robotic security/communication challenges, which will be useful later in the paper.
+	\item \textbf{General security.} This section defines the categorization methods that will be used to classify specific attack methods.
+	\item \textbf{WSN Attacks in Mobile Robot Networks.} This section provides a list of attack methods within the domain of Wireless Sensor Networks that can appear within Mobile Robot Networks.
+	\item \textbf{Attacks Unique to Mobile Robot Networks.} This section outlines attack methods that are either exacerbated by, or are unique to, the domain of Mobile Robot Networks.
+	\item \textbf{Mitigations.} This section provides a brief overview of techniques to mitigate the outlined security issues in Mobile Robot Networks and provides references to sources that further discuss the presented mitigation methods.
 \end{itemize}
 
-
-\subsection{Layout of Our Survey}
-
-Our survey is structured into XYZ primary sections:
-
-
-In each of these, secondary sections are used to summarize the associated literature. Finally, each subsection ends with a discussion of future work...
+%In each of these, secondary sections are used to summarize the associated literature. Finally, each subsection ends with a discussion of future work...
 
 
 %This paper \cite{Shin2017} talks about how they implemented a segmented to robot that could establish its own multihop network (in the context of disaster relief). It doesn't talk about security, but we could say that this is a real world example of robot and it would disastrous if it was hacked, or something.
