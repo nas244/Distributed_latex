@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.2.29)  2 MAR 2020 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.2.29)  2 MAR 2020 18:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -773,7 +773,173 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks42
 \enit@inbox=\box62
 \enitdp@description=\count162
-) (./root.aux)
+) (./root.aux
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 <
+      <<<<<< HEAD
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Label `ALAZZAM20188' multiply defined.
+
+
+LaTeX Warning: Label `Archibald2017ASO' multiply defined.
+
+
+LaTeX Warning: Label `Arya2010' multiply defined.
+
+
+LaTeX Warning: Label `firstnet' multiply defined.
+
+
+LaTeX Warning: Label `Basan:2017' multiply defined.
+
+
+LaTeX Warning: Label `Basan2018' multiply defined.
+
+
+LaTeX Warning: Label `Basan:2018:DMT:3264437.3264482' multiply defined.
+
+
+LaTeX Warning: Label `Battiti2003OptimalWA' multiply defined.
+
+
+LaTeX Warning: Label `booth17:piggybacking' multiply defined.
+
+
+LaTeX Warning: Label `inproceedings:Breiling' multiply defined.
+
+
+LaTeX Warning: Label `Burg2018' multiply defined.
+
+
+LaTeX Warning: Label `lmrs' multiply defined.
+
+
+LaTeX Warning: Label `douceur02sybil' multiply defined.
+
+
+LaTeX Warning: Label `eisenblatter:integrated' multiply defined.
+
+
+LaTeX Warning: Label `ekahau' multiply defined.
+
+
+LaTeX Warning: Label `Elgenaidi2016' multiply defined.
+
+
+LaTeX Warning: Label `Yfantis1' multiply defined.
+
+
+LaTeX Warning: Label `Cornelius' multiply defined.
+
+
+LaTeX Warning: Label `Gil2017GuaranteeingSM' multiply defined.
+
+
+LaTeX Warning: Label `Higgins2009SurveyOS' multiply defined.
+
+
+LaTeX Warning: Label `huszak:investigation' multiply defined.
+
+
+LaTeX Warning: Label `zhong:methods' multiply defined.
+
+
+LaTeX Warning: Label `Kalam2016BilateralTS' multiply defined.
+
+
+LaTeX Warning: Label `kamenetsky:coverage' multiply defined.
+
+
+LaTeX Warning: Label `Krupp2017' multiply defined.
+
+
+LaTeX Warning: Label `Lasota2016' multiply defined.
+
+
+LaTeX Warning: Label `10.1371/journal.pone.0139190' multiply defined.
+
+
+LaTeX Warning: Label `6503906' multiply defined.
+
+
+LaTeX Warning: Label `lin:optimization' multiply defined.
+
+
+LaTeX Warning: Label `maksuriwong:moga' multiply defined.
+
+
+LaTeX Warning: Label `article:Martin' multiply defined.
+
+
+LaTeX Warning: Label `Miglani2FA' multiply defined.
+
+
+LaTeX Warning: Label `Min2013' multiply defined.
+
+
+LaTeX Warning: Label `Mofarreh-Bonab2012' multiply defined.
+
+
+LaTeX Warning: Label `Morante2015CryptoboticsWR' multiply defined.
+
+
+LaTeX Warning: Label `Mostefa2017' multiply defined.
+
+
+LaTeX Warning: Label `netspot' multiply defined.
+
+
+LaTeX Warning: Label `Park2018' multiply defined.
+
+
+LaTeX Warning: Label `inbook:Priyadarshini' multiply defined.
+
+
+LaTeX Warning: Label `puspitasari:implementation' multiply defined.
+
+
+LaTeX Warning: Label `Qin:2017' multiply defined.
+
+
+LaTeX Warning: Label `sendra:wirelesssensor' multiply defined.
+
+
+LaTeX Warning: Label `Sheikhzadeh2018' multiply defined.
+
+
+LaTeX Warning: Label `Shin2017' multiply defined.
+
+
+LaTeX Warning: Label `thesis:Shyvakov' multiply defined.
+
+
+LaTeX Warning: Label `Strobel:2018' multiply defined.
+
+
+LaTeX Warning: Label `tamosoft' multiply defined.
+
+
+LaTeX Warning: Label `Tardioli2014' multiply defined.
+
+
+LaTeX Warning: Label `Trivedi:2018' multiply defined.
+
+
+LaTeX Warning: Label `Vuong2015' multiply defined.
+
+
+LaTeX Warning: Label `Yousef2018AnalyzingCT' multiply defined.
+
+)
 \openout1 = `root.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -791,6 +957,15 @@ LaTeX Font Info:    ... okay on input line 39.
 
 -- Lines per column: 58 (exact).
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+Underfull \hbox (badness 4132) in paragraph at lines 46--13
+\OT1/ptm/m/n/10 <<<<<<< HEAD =======             >>>>>>>
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--13
+\OT1/ptm/m/n/10 Lo-gan'sSecretChocolateBranch     <<<<<<< HEAD
+ []
+
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count163
 \scratchdimen=\dimen272
@@ -854,26 +1029,22 @@ e
 ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (./introduction.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 15.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+] (./introduction.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 94.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 15.
+LaTeX Font Info:    Try loading font information for U+msb on input line 94.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 4108) in paragraph at lines 17--18
-[]\OT1/ptm/m/n/10 Physical com-pro-mise; by their na-ture as semi-
- []
+) [2
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]) (./maxwell.tex)
-(./GeneralSecurity.tex [2]
+]) (./maxwell.tex) (./GeneralSecurity.tex
 Underfull \hbox (badness 10000) in paragraph at lines 26--31
 
  []
@@ -883,22 +1054,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--31
 
  []
 
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-[3]) (./SpecificAttacks.tex [4]
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
-
- []
-
-) (./Mitigation.tex [5]
+) (./SpecificAttacks.tex [4]) (./Mitigation.tex [5]
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
@@ -913,12 +1074,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--99
 
  []
 
-[6]) (./conclusion.tex) (./root.bbl
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no – in font ptmr7t!
+) (./conclusion.tex) (./root.bbl [6]
+Missing character: There is no ï¿½ in font ptmr7t!
+Missing character: There is no ï¿½ in font ptmr7t!
+Missing character: There is no ï¿½ in font ptmr7t!
+Missing character: There is no ï¿½ in font ptmr7t!
+Missing character: There is no ï¿½ in font ptmr7t!
 
 Underfull \hbox (badness 2229) in paragraph at lines 111--115
 []\OT1/ptm/m/n/8 Federal Com-mu-ni-ca-tions Com-mis-sion.  Pri-vate land mo-bil
@@ -931,32 +1092,37 @@ Underfull \hbox (badness 2150) in paragraph at lines 111--115
 bureau-[]divisions /
  []
 
-Missing character: There is no Å in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ­ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
+Missing character: There is no ï¿½ in font ptmr7t!
+Missing character: There is no ï¿½ in font ptmr7t!
+Missing character: There is no ï¿½ in font ptmr7t!
+Missing character: There is no ï¿½ in font ptmr7t!
+Missing character: There is no ï¿½ in font ptmr7t!
+Missing character: There is no ï¿½ in font ptmr7t!
 [7]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no   in font ptmr7t!
-) [8] (./root.aux) ) 
+Missing character: There is no ï¿½ in font ptmr7t!
+Missing character: There is no ï¿½ in font ptmr7t!
+Missing character: There is no ï¿½ in font ptmr7t!
+) [8
+
+] (./root.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 19651 strings out of 493029
- 397973 string characters out of 6136234
- 468618 words of memory out of 5000000
- 22801 multiletter control sequences out of 15000+600000
+ 19647 strings out of 493029
+ 397907 string characters out of 6136234
+ 470872 words of memory out of 5000000
+ 22797 multiletter control sequences out of 15000+600000
  42329 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,7n,73p,1412b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
-s/utmri8a.pfb>
-Output written on root.pdf (8 pages, 107840 bytes).
+ 62i,6n,73p,1392b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
+tmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on root.pdf (8 pages, 102273 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
